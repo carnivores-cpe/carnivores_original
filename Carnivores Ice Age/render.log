@@ -1,0 +1,97 @@
+Carnivores Ice Age D3D video driver. Build v2.04. Sep.24 1999.
+Creating main window...Ok.
+
+==Init Direct Draw==
+DirectDrawCreate: Ok
+Trophy Loaded.
+Init Engine: Ok.
+
+Creative EAX 1.0/2.0 audio driver (beta 4) 1.2
+No Device Enumerating implemented.. 
+lpDS created..
+Detect: EAX 2.0 
+DSCAPS:
+ dwFreeHw3DAllBuffers 31 
+ dwFreeHw3DStaticBuffers 31 
+ dwFreeHw3DStreamingBuffers 31 
+ dwFreeHwMemBytes 524288 
+ dwTotalHwMemBytes 524288 
+ dwFreeHwMixingAllBuffers 31 
+ dwFreeHwMixingStaticBuffers 31 
+ dwFreeHwMixingStreamingBuffers 31 
+ dwMaxContigFreeHwMemBytes 524288 
+ dwMinSecondarySampleRate 100 
+ dwMaxSecondarySampleRate 100000 
+ dwMaxHw3DAllBuffers 32 
+ dwMaxHw3DStaticBuffers 32 
+ dwMaxHw3DStreamingBuffers 32 
+ dwMaxHwMixingAllBuffers 32 
+ dwMaxHwMixingStaticBuffers 32 
+ dwMaxHwMixingStreamingBuffers 32 
+CreatePrimaryBuffer Ok
+Primary SetFormat() Ok
+Create audio thread #1..ok
+InitAudioSystem ok
+
+== Loading resources ==
+Loading common resources: Done.
+Loading textures: Done.
+Loading models: Done.
+Finishing with .res: Done.
+Loading .map: Done.
+Loading area: Done.
+Entering messages loop.
+Entered game
+ReInitGame();
+Placing...
+Loading: HUNTDAT\hunter1.car
+Loading: HUNTDAT\pig1.car
+Loading: HUNTDAT\archeo.car
+Loading: HUNTDAT\bronto.car
+Loading: HUNTDAT\hog.car
+Loading: HUNTDAT\Rhino.car
+Loading: HUNTDAT\smilo.car
+Loading: HUNTDAT\WEAPONS\pistol.car
+Loading: HUNTDAT\WEAPONS\bullet1.tga
+
+=== Init Direct3D ===
+Set Display mode 1024x768, 16bpp
+QueryInterface: Ok. (IID_IDirect3D)
+CreateSurface: Ok. (Primary)
+EnumDevices: Ok.
+CreateSurface: Ok. (BackBuffer)
+CreateSurface: Ok. (Z-buffer)
+QueryInterface: Ok. (lpd3dDevice)
+CreateViewport: Ok.
+CreateExecuteBuffer: Ok.
+CreateExecuteBuffer: Ok.
+DETECTED: Texture memory : 16384K.
+DETECTED: Texture transfer speed: 213333K/sec.
+DETECTED: PixelFormat RGB565
+TEST COLOR KEY: [OPACITY: Ok.] [TRANSPARENT: Ok.] [ENV.BLEND : Ok.]
+TEST ALPHA KEY: [OPACITY: Ok.] [TRANSPARENT: Ok.] [ENV.BLEND : Ok.]
+ALPHA KEY mode selected.
+=== Direct3D started === 
+
+SetEnv 2 Forest
+Audio_UpdateGeometry: 400 faces uploaded
+SetEnv 0 Generic
+SetEnv 2 Forest
+SetEnv 0 Generic
+SetEnv 8 Underwater 
+SetEnv 0 Generic
+SetEnv 2 Forest
+SetEnv 0 Generic
+SetEnv 2 Forest
+SetEnv 3 Mountain
+SetEnv 2 Forest
+  AudioStop()
+  AudioStop()
+ Releasing lpPropertySet
+ Releasing lpDummy
+ Releasing Listener3D
+ Releasing PrimaryBuffer
+ Releasing DirectSoundObject
+ Terminate thread 1
+ AudioShutdown()
+Game normal shutdown.

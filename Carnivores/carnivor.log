@@ -1,0 +1,52 @@
+Carnivores D3D. Build v1.03. Dec. 18 1998.
+Creating main window...Ok.
+
+==Init Direct Sound==
+SFX heap created
+Back Sound Buffer created.
+Device0: Speakers (Realtek High Definition Audio)/{0.0.0.00000000}.{8c389315-b17f-40b9-bef4-05a0370b3202}
+DirectSoundEnumerate: Ok
+Acceptable device: 0
+Device selected  : 0
+DirectSoundCreate: Ok
+Attempting to set WRITEPRIMARY CooperativeLevel:
+Set Cooperative  : Ok
+CreateSoundBuffer: Ok (Primary)
+SetFormat        : Ok
+Play             : Ok
+Direct Sound activated.
+
+==Init Direct Draw==
+DirectDrawCreate: Ok
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+SetCooperativeLevel: Ok
+Direct Draw activated.
+
+===> Error loading trophy!
+Init Engine: Ok.
+== Loading resources ==
+ABNORMAL_HALT: Error opening character file:
+HUNTDAT\PAR2.CAR.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.
+Audio restored.

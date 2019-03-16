@@ -1,0 +1,14 @@
+LIBRARY A_EAX
+
+EXPORTS
+   InitAudioSystem
+   AudioStop
+   Audio_Shutdown
+   AddVoice3dv
+   Audio_Restore
+   AudioSetCameraPos
+   SetAmbient3d
+   SetAmbient
+   Audio_GetVersion
+   Audio_SetEnvironment
+   Audio_UploadGeometry

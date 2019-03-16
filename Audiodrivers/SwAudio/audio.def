@@ -1,0 +1,14 @@
+LIBRARY A_Soft
+
+EXPORTS
+   InitAudioSystem
+   AudioStop
+   Audio_Shutdown
+   AddVoice3dv
+   StopVoice
+   Audio_Restore
+   AudioSetCameraPos   
+   SetAmbient
+   Audio_GetVersion
+   Audio_SetEnvironment   
+   Audio_SetExtData
